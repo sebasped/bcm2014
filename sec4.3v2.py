@@ -15,7 +15,8 @@ import seaborn as sns
 
 #ejercicio 4.3.2
 model = pm.Model()
-yobs = [[90,95,100], [105,110,115], [150,155,160]]
+# yobs = [[90,95,100], [105,110,115], [150,155,160]]
+yobs = [[94,95,96], [109,110,111], [154,155,156]]
 npeople = len(yobs)
 # ntest = len(yobs[0])
 
